@@ -88,3 +88,9 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-width: 320px) {
+  nav {
+    display: none;
+  }
+}
