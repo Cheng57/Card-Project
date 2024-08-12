@@ -66,6 +66,12 @@ main {
   row-gap: 10px;
 }
 
+figure {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
 figcaption {
   text-align: center;
 }
