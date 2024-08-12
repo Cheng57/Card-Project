@@ -85,3 +85,7 @@ img {
   border: 2px double black;
   border-radius: 50%;
 }
+
+.nowrap {
+  white-space: nowrap;
+}
