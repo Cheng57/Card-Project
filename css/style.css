@@ -50,6 +50,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  row-gap: 10px;
 }
 
 .card {
@@ -62,6 +63,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 10px;
+}
+
+figcaption {
+  text-align: center;
 }
 
 img {
