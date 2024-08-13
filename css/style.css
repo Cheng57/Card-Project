@@ -150,3 +150,10 @@ header {
     order: -1;
   }
 }
+
+/* || XL */
+@media screen and (min-width: 1200px) {
+  .card {
+    width: min(calc(33% - 1rem), 500px);
+  }
+}
