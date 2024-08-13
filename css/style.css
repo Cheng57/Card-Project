@@ -58,11 +58,10 @@ main {
   justify-content: space-around;
   row-gap: 10px;
   flex-grow: 1;
-  margin-top: 108px;
-  padding-bottom: 44px;
 }
 
 .card {
+  scroll-margin-top: 116px;
   width: min(100%, 350px);
   border: 1px solid black;
   border-radius: 2px;
@@ -102,9 +101,16 @@ img {
 header,
 footer {
   width: 100vw;
-  position: fixed;
+  position: sticky;
 }
 
 header {
   top: 0px;
+}
+
+/* || SMALL*/
+@media screen and (min-width: 576px) {
+  nav {
+    display: none;
+  }
 }
