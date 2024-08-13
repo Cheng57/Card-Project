@@ -109,7 +109,7 @@ header {
   top: 0px;
 }
 
-/* || SMALL*/
+/* || SMALL */
 @media screen and (min-width: 576px) {
   main {
     justify-content: center;
@@ -122,5 +122,20 @@ header {
 
   .card:last-child {
     order: -1;
+  }
+}
+
+/* || MEDIUM */
+@media screen and (min-width: 768px) {
+  nav {
+    display: none;
+  }
+
+  .card {
+    width: min(100%, 325px);
+  }
+
+  .card figure {
+    flex-flow: column-reverse;
   }
 }
