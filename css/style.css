@@ -52,14 +52,14 @@ footer {
 }
 
 main {
-  padding: 1rem;
+  padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   row-gap: 10px;
   flex-grow: 1;
   margin-top: 108px;
-  padding-bottom: 50px;
+  padding-bottom: 44px;
 }
 
 .card {
@@ -107,7 +107,4 @@ footer {
 
 header {
   top: 0px;
-}
-
-@media screen and (min-width: ) {
 }
