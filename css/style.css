@@ -33,13 +33,13 @@ nav {
   align-items: center;
 }
 
-a:link,
-a:visited {
+nav a:link,
+nav a:visited {
   color: black;
 }
 
-a:hover,
-a:focus {
+nav a:hover,
+nav a:focus {
   color: bisque;
 }
 
