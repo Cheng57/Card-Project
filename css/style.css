@@ -73,19 +73,19 @@ main {
   row-gap: 10px;
 }
 
-figure {
+.card figure {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
 
-figcaption {
+.card figure figcaption {
   font-weight: bolder;
   font-size: 2rem;
   text-align: center;
 }
 
-img {
+.card figure img {
   display: block;
   max-width: 100%;
   height: auto;
