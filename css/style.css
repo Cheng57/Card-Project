@@ -33,7 +33,7 @@ nav {
   align-items: center;
 }
 
-nav a:is(:link, :visited) {
+nav a:any-link {
   color: black;
 }
 
